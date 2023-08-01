@@ -1,0 +1,41 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.game-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.game-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.snake, .food {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.snake {
+    background-color: #00f;
+}
+
+.food {
+    background-color: #f00;
+}
